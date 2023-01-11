@@ -1,0 +1,55 @@
+/*****************************/
+/*** Core html setup stuff ***/
+/* Tran Thanh Sang */
+/* sangtialia@gmail.com */
+/*****************************/
+.articlecontent .detail .info{
+	color:#666;
+	font-style:italic;
+	float:left;
+}
+.articlecontent .detail .icons{
+	float:right;
+	margin-right:20px;
+}
+.articlecontent .detail .bookmark{
+	float:right;
+}
+/* category */
+.articlecontent .categoryBlog h4{
+	margin:0;
+}
+.articlecontent .categoryBlog p{
+	margin-top:5px;
+}
+.articlecontent .categoryBlog a.more{
+	color:#3366cc;
+	font-size:11px;
+	font-style:italic;
+}
+.articlecontent .categoryBlog div.thumb{
+}.articlecontent .categoryBlog td.thumb{
+	vertical-align:top;
+}
+.articlecontent .categoryBlog div.thumb img{
+	margin-top:8px;
+}
+
+.article-cat-list .item{
+	box-shadow:0px 6px 6px #ccc;
+	margin-bottom:30px;
+	background:#FFF;
+	text-align:center;
+}
+.article-cat-list .item h4{
+	min-height:80px;
+	text-align:center;
+	padding:25px 45px 15px 45px;
+	font-size:17px;
+
+}
+.article-cat-list .item a{
+	text-decoration:none;
+	color:inherit;
+}
+

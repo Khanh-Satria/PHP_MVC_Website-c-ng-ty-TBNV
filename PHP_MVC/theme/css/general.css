@@ -1,0 +1,68 @@
+/*****************************/
+/*** Core html setup stuff ***/
+/* Tran Thanh Sang */
+/* sangtialia@gmail.com */
+/*****************************/
+@charset "utf-8";
+.imglink{
+	border:0;
+	transition: all 300ms ease 0s;
+}
+.imglink:hover{
+	opacity:0.80;
+	moz-opacity:0.80;
+	filter:alpha(opacity=80);
+}
+
+.button, .button {border:none; color:#FFF; cursor:pointer; padding:9px 25px; background:#007bff; display:inline-block; }
+.button:hover{background:#000; color:#fff; text-decoration:none;}
+input.inputbox, select.inputbox, textarea.inputbox{
+	padding:7px 0;
+	text-indent:5px;
+	border:1px solid #CCC;
+	}
+
+.break{
+	clear:both;
+}
+table.list{
+	border-right:1px solid #e1e1e1;
+	border-top:1px solid #e1e1e1;
+}
+table.list td{
+	border-left:1px solid #e1e1e1;
+	border-bottom:1px solid #e1e1e1;
+	padding:5px 7px;
+}
+table.list tr.title td{
+	background:#f2f2f2;
+	text-align:center;
+	font-weight:bold;
+}
+#st-body{
+	padding-top:30px;
+}
+#st-content{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	line-height:1.4;
+	margin-bottom:45px;
+}
+#st-content img, #st-content iframe, #st-content object{
+	max-width:100% !important;
+}
+#st-content li{
+	margin-top:7px;
+	margin-bottom:7px;
+	color:inherit;
+}
+.topmsg{
+	margin-top:150px;
+}
+#message{
+	margin-top:10px;
+}
+.modheading{
+	margin-top:35px;
+	margin-bottom:25px;
+}
